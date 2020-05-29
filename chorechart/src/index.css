@@ -105,3 +105,15 @@ footer {
     margin-right: 0%;
   }
 }
+
+div.mychores:hover {
+  color: lime;
+}
+
+div.completed {
+  color: red;
+}
+
+div.mychores:hover {
+  color: lime;
+}

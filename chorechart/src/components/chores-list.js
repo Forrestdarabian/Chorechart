@@ -1,6 +1,6 @@
 import React from "react";
 import Chores from "./chores";
-
+import "../index.css";
 class ChoresList extends React.Component {
   constructor(props) {
     super(props);
@@ -9,7 +9,7 @@ class ChoresList extends React.Component {
   render() {
     console.log("ChoresList", this.props);
     return (
-      <div>
+      <div className="mychores">
         {this.props.chores.map((chore) => (
           <Chores
             key={chore.id}
